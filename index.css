@@ -1,0 +1,233 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border;
+}
+.TabContainer{
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: row;
+  padding: 0px 32px;
+  justify-content: space-between;
+}
+.Tab_group{
+ 
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0px 0px;
+  
+}
+.hover{
+  cursor: pointer;
+  background-color: beige;
+  border-bottom: 2px solid black;
+}
+
+.positioning{
+    display: flex; 
+}
+.active{
+  cursor: pointer; 
+  border-bottom: 2px solid black;
+}
+.TabPadding{
+  height: 64px;
+  width: 96px;
+  line-height: 64px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: larger;
+  
+}
+.tab-pane{
+  display: none;
+}
+.tab-pane.active{
+  display: block;
+  padding: 0px 20%;
+}
+
+.MenuItemContainer{
+  background-color: #f4f4f4;
+  border-radius: 3px;
+  padding: 16px 16px;
+  margin: 24px 0px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.MenuItemHeader{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: solid 1px lightgray;
+  padding: 4px 0px;
+}
+.MenuItemTitle{
+  font-size: 18px;
+  font-weight: 600;
+}
+.MenuIngredients{
+  display: inline-flex;
+  padding: 8px 0px;
+  
+  
+  
+}
+.Menuitemimg{
+  display: flex;
+  flex: 1;
+  background-color: #f4f4f4;
+  object-fit: cover;
+  width: 160px;
+  height: 160px;
+  border-radius: 3px;
+}
+.MenuInformation{
+  padding-left: 24px;
+  text-align: left;
+  width: 100%;
+}
+.HeaderdivSection{
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-weight: 900;
+  text-align: center;
+  width: 100%;
+
+}
+.ContactSection{
+  background-color: #f4f4f4;
+  display: block;
+  
+  border-radius: 5px;
+  width: 100%;
+  height: 100vh;
+  color:black;
+  padding: 16px 32px;
+}
+.ContactInfo{
+  font-size: 20px;
+  width: 100%;
+  display: inline-flex;
+  
+  padding: 16px 0px;
+}
+.ContactIcon{
+  margin-right: 16px;
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+  height: 24px;
+  width: 24px;
+}
+.content-name{
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s;
+
+}
+.Contactform{
+  width: 100%;
+  position: relative;
+  height: 50px;
+ 
+}
+.Contactform input{
+  width: 100%;
+  height: 100%;
+  color: #595f6e;
+  padding: 16px 0px;
+  border: none;
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+form label{
+  position: relative;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border: none;
+}
+.center{
+  margin-top: 24px;
+  font-weight: bold;
+  margin-bottom:0px;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: unset;
+  font-size: 20px;
+  
+}
+.ContactButton{
+  border: none;
+  font-size: 16px;
+  background-color: antiquewhite;
+  font-weight: bolder;
+  color: black;
+  height: 48px;
+  border-radius: 3px;
+  width: 100%;
+  cursor: pointer;
+}
+.ContactButton:hover{
+  border: none;
+  font-size: 16px;
+  color: black;
+  font-weight: bolder;
+ left: 5px;
+ bottom: 5px;
+ background-color: rgb(251, 192, 115);
+ height: 48px;
+ border-radius: 3px;
+ width: 100%;
+ cursor: pointer;
+
+}
+.homescreenlanding{
+  
+  padding: 24px;
+  
+  height: 100vh;
+  background-image: url(Img/Bobaimage.jpg);
+  background-size: cover;
+}
+.homescreenlanding h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+ 
+  
+
+  vertical-align: middle;
+}
+.Homepagebutton{
+  height: 40px;
+  border: none;
+  border-radius: 3px;
+  padding: 0px 16px;
+  color: antiquewhite;
+  background-color: blue;
+  opacity: 0.5;
+}
+.Homepagebuttondiv{
+  justify-content: center;
+  text-align: center;
+
+  align-items: center;
+  
+}
+.Landing h1{
+  
+  padding-top: 200px;
+  vertical-align: middle;
+  line-height: 50px;
+  margin-bottom: 40px;
+  
+}
